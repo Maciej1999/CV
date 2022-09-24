@@ -1,0 +1,134 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #faf5f5;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+  background: #ffffff;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+aside {
+  width: 370px;
+  background: #1e2939;
+}
+.cv-photo {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.headers-secondary {
+  color: #ffffff;
+}
+.contacts-links {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+}
+.bold {
+  font-weight: 700;
+}
+.list-secondary {
+  color: #fb6d3a;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 0px;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+.list-secondary-item {
+  color: #ffffff;
+}
+.contacts-block {
+  margin-top: 51px;
+  margin-left: 40px;
+}
+.tech-skils-block {
+  margin-top: 47px;
+  margin-left: 40px;
+}
+.soft-skill-block {
+  margin-top: 44px;
+  margin-left: 40px;
+}
+main {
+  padding: 100px 90px;
+}
+.main-description,
+.projects,
+.job,
+.education,
+.courses {
+  width: 450px;
+  padding-bottom: 30px;
+}
+.job-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+h1 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+.description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4e4e4e;
+}
+.list-primary {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 0px;
+  list-style-position: inside;
+}
+.list-primary-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #4e4e4e;
+  text-decoration: none;
+}
+.header-primary {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin-bottom: 12px;
+}
+.date {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #6c6969;
+}
+.job-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  padding: 14px;
+}
+.dark {
+  color: #000000;
+}
+.name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+.education-direction {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+}
+.space {
+  padding-top: 20px;
+}
