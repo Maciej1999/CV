@@ -1,10 +1,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background: #faf5f5;
+  margin: 0;
 }
 .wrapper {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   width: 1200px;
   justify-content: center;
   margin: 0 auto;
@@ -12,7 +13,7 @@ body {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 aside {
-  width: 370px;
+  width: 35%;
   background: #1e2939;
 }
 .cv-photo {
@@ -46,24 +47,21 @@ aside {
   margin-top: 51px;
   margin-left: 40px;
 }
-.tech-skils-block {
-  margin-top: 47px;
-  margin-left: 40px;
-}
-.soft-skill-block {
+.skills-block {
   margin-top: 44px;
   margin-left: 40px;
 }
 main {
-  padding: 100px 90px;
+  padding: 60px 90px;
+  width: 65%;
 }
 .main-description,
 .projects,
 .job,
 .education,
 .courses {
-  width: 450px;
-  padding-bottom: 30px;
+  width: 70%;
+  padding-bottom: 10px;
 }
 .job-title {
   font-weight: 700;
@@ -77,9 +75,9 @@ h1 {
 }
 .description {
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
   color: #4e4e4e;
 }
 .list-primary {
@@ -114,6 +112,7 @@ h1 {
   line-height: 24px;
   color: #595959;
   padding: 14px;
+  margin: 0;
 }
 .dark {
   color: #000000;
@@ -131,4 +130,12 @@ h1 {
 }
 .space {
   padding-top: 20px;
+}
+.clausule {
+  width: 80%;
+}
+.rodo {
+  color: #b3b3b3;
+  font-size: 16px;
+  text-align: center;
 }
