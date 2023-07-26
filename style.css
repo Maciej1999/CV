@@ -95,6 +95,9 @@ h1 {
   color: #4e4e4e;
   text-decoration: none;
 }
+.list-primary-link {
+  text-decoration: underline;
+}
 .header-primary {
   font-weight: 700;
   font-size: 22px;
